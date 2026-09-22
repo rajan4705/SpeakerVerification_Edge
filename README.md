@@ -190,7 +190,6 @@ If you use this codebase or deployment methodology in your research or project, 
   title={Real-Time Edge Speaker Verification: Heterogeneous Acceleration and Quantization of ECAPA-TDNN on Infineon PSOC Edge E84},
   author={Your Name and Collaborators},
   year={2026},
-  howpublished={\url{https://github.com/<your-username>/psoc-edge-ecapa-tdnn}},
   note={Infineon PSOC Edge E84 Deployment with Cortex-M55 Helium MVE and Ethos-U55 NPU}
 }
 ```
