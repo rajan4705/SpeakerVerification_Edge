@@ -8,17 +8,21 @@ build/
 *.d
 *.rsp
 *.map
+*.lst
 
-# ModusToolbox caches
+# ModusToolbox caches & local tools
 .mtbqueryapi
 .cy_deps/
 *.log
+compile_commands.json
 .ninja_log
 
-
-# Omitted Proprietary Model Weights
+# Omitted Proprietary Model Weights (Available upon contact)
 proj_cm55/model/MODEL_E84_tflm_model_int8x8.c
 proj_cm55/head/CompressedHeadWeights.cc
 
-# Optional: exclude test audio recordings if private
-# proj_cm55/head/InputFiles.cc
+# Editor & OS temporary files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

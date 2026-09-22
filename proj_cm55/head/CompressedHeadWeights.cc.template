@@ -1,0 +1,20 @@
+/***************************************************************************//**
+* \file CompressedHeadWeights.cc.template
+*
+* \brief
+* Template placeholder for the compressed INT4 Attentive Statistics Pooling head.
+*******************************************************************************/
+
+#include "CompressedHeadWeights.hpp"
+
+/* 
+ * NOTE: The compressed INT4 head weights (g_CompressedHeadWeights) are omitted 
+ * from this public repository due to licensing/distribution requirements.
+ * 
+ * To obtain the compressed head weights array, please contact the author as described in README.md.
+ * Once obtained, copy the full CompressedHeadWeights.cc file into proj_cm55/head/.
+ */
+
+#if !defined(HAVE_ECAPA_HEAD_WEIGHTS)
+#error "ECAPA-TDNN ASP Head weights are missing. Please place CompressedHeadWeights.cc in proj_cm55/head/ or contact the author."
+#endif

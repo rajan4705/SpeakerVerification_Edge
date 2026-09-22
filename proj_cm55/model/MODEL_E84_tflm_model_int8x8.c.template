@@ -1,0 +1,20 @@
+/***************************************************************************//**
+* \file MODEL_E84_tflm_model_int8x8.c.template
+*
+* \brief
+* Template placeholder for the ECAPA-TDNN Ethos-U55 INT8 model binary.
+*******************************************************************************/
+
+#include "MODEL_E84_tflm_model_int8x8.h"
+
+/* 
+ * NOTE: The compiled Ethos-U55 model array (MODEL_E84_model_bin) is omitted 
+ * from this public repository due to licensing/distribution requirements.
+ * 
+ * To obtain the model binary array, please contact the author as described in README.md.
+ * Once obtained, copy the full MODEL_E84_tflm_model_int8x8.c file into proj_cm55/model/.
+ */
+
+#if !defined(HAVE_ECAPA_BACKBONE_WEIGHTS)
+#error "ECAPA-TDNN Ethos-U55 model weights are missing. Please place MODEL_E84_tflm_model_int8x8.c in proj_cm55/model/ or contact the author."
+#endif
