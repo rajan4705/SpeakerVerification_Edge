@@ -9,8 +9,6 @@ An edge AI deployment of the **ECAPA-TDNN** (Emphasized Channel Attention, Propa
 
 The system performs **real-time on-device speaker verification and enrollment** with hardware microphone decimation, adaptive Voice Activity Detection (VAD), non-volatile RRAM speaker profile persistence, and an interactive 4.3" MIPI-DSI touch interface.
 
-> **Research Paper**: For the complete mathematical formulation, graph partitioning strategy, and benchmark evaluation, see [`docs/ECAPA_TDNN_PSOC_Edge_E84_Deployment_Paper.md`](docs/ECAPA_TDNN_PSOC_Edge_E84_Deployment_Paper.md).
-
 ---
 
 ## Key Highlights & Performance
@@ -92,7 +90,7 @@ are **not hosted in this public repository**.
 
 ### Requesting Model Weights
 The weights can be made available for academic, research, or evaluation purposes.
-- Please contact: **[YOUR_NAME]** at `your.email@domain.com`
+- Please contact: **Rajan Kumar** at `rajan4705kr@gmail.com`
 - Subject: `[PSOC Edge E84] ECAPA-TDNN Model Weights Request`
 - Include: Your name, organization/affiliation, and intended evaluation purpose.
 
