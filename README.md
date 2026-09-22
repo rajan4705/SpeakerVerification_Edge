@@ -131,8 +131,8 @@ cp CompressedHeadWeights.cc      proj_cm55/head/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/psoc-edge-ecapa-tdnn.git
-cd psoc-edge-ecapa-tdnn
+git clone https://github.com/rajan4705/SpeakerVerification_Edge.git
+cd SpeakerVerification_Edge
 ```
 
 ### 2. Fetch Dependent ModusToolbox Libraries
