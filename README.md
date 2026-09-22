@@ -3,7 +3,7 @@
 [![Target: KIT_PSE84_EVAL](https://img.shields.io/badge/Hardware-KIT__PSE84__EVAL-007079?logo=infineon&logoColor=white)](https://www.infineon.com)
 [![Compute: CM55 + Ethos-U55](https://img.shields.io/badge/Compute-Cortex--M55%20%2B%20Ethos--U55%20(256%20MACs)-0091BD?logo=arm&logoColor=white)](https://www.arm.com)
 [![Toolchain: ModusToolbox 3.3+](https://img.shields.io/badge/Toolchain-ModusToolbox%20%7C%20LLVM__ARM-blue)](https://www.infineon.com/modustoolbox)
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE)
+#[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE)
 
 An edge AI deployment of the **ECAPA-TDNN** (Emphasized Channel Attention, Propagation and Aggregation Time Delay Neural Network) acoustic biometric architecture on the **Infineon PSOC™ Edge E84 Evaluation Kit** (`KIT_PSE84_EVAL_EPC2` / `PSE846GPS2DBZC4A`).
 
@@ -196,7 +196,3 @@ If you use this codebase or deployment methodology in your research or project, 
 ```
 
 ---
-
-## License
-
-This project is licensed under the Apache 2.0 License. See [LICENSE](LICENSE) for details.
