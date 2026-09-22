@@ -1,0 +1,24 @@
+# ModusToolbox Build Outputs
+build/
+*/build/
+*.hex
+*.bin
+*.elf
+*.o
+*.d
+*.rsp
+*.map
+
+# ModusToolbox caches
+.mtbqueryapi
+.cy_deps/
+*.log
+.ninja_log
+
+
+# Omitted Proprietary Model Weights
+proj_cm55/model/MODEL_E84_tflm_model_int8x8.c
+proj_cm55/head/CompressedHeadWeights.cc
+
+# Optional: exclude test audio recordings if private
+# proj_cm55/head/InputFiles.cc

@@ -1,0 +1,37 @@
+{
+    "version": 4,
+    "env": {
+        "mtbCompilerArgs": [
+            "-c","-mcpu=cortex-m33","-Os","-DMTB_LLVM_EMBEDDED_ARM","-mfloat-abi=softfp","-mfpu=fpv5-sp-d16","-mthumb","-ffunction-sections","-fdata-sections","-Wall","--target=arm-none-eabi","-fintegrated-cc1","-fintegrated-objemitter","-fshort-enums","-mcmse"
+        ],
+        "mtbDefaultIncludePath": [
+            "../bsps/TARGET_APP_KIT_PSE84_EVAL_EPC2","../bsps","../bsps/TARGET_APP_KIT_PSE84_EVAL_EPC2/bluetooth","../bsps/TARGET_APP_KIT_PSE84_EVAL_EPC2/COMPONENT_CM33/COMPONENT_SECURE_DEVICE","../bsps/TARGET_APP_KIT_PSE84_EVAL_EPC2/COMPONENT_CM33","../bsps/TARGET_APP_KIT_PSE84_EVAL_EPC2/config/GeneratedSource","../bsps/TARGET_APP_KIT_PSE84_EVAL_EPC2/config","../../mtb_shared/async-transfer/release-v1.1.1/include","../../mtb_shared/async-transfer/release-v1.1.1","../../mtb_shared/cmsis/release-v6.1.0/Core/Include","../../mtb_shared/cmsis/release-v6.1.0/Core","../../mtb_shared/cmsis/release-v6.1.0","../../mtb_shared/cmsis/release-v6.1.0/Core/Include/a-profile","../../mtb_shared/cmsis/release-v6.1.0/Core/Include/m-profile","../../mtb_shared/cmsis/release-v6.1.0/Core/Include/r-profile","../../mtb_shared/core-lib/release-v1.8.0/include","../../mtb_shared/core-lib/release-v1.8.0","../../mtb_shared/mtb-dsl-pse8xxgp/release-v1.6.0/device-utils/syspm/hobto/pdm_pcm/audioss_pdm","../../mtb_shared/mtb-dsl-pse8xxgp/release-v1.6.0/device-utils/syspm/hobto/pdm_pcm","../../mtb_shared/mtb-dsl-pse8xxgp/release-v1.6.0/device-utils/syspm/hobto","../../mtb_shared/mtb-dsl-pse8xxgp/release-v1.6.0/device-utils/syspm","../../mtb_shared/mtb-dsl-pse8xxgp/release-v1.6.0/device-utils","../../mtb_shared/mtb-dsl-pse8xxgp/release-v1.6.0","../../mtb_shared/mtb-dsl-pse8xxgp/release-v1.6.0/device-utils/syspm/hobto/pdm_pcm/mxpdm","../../mtb_shared/mtb-dsl-pse8xxgp/release-v1.6.0/device-utils/syspm/include","../../mtb_shared/mtb-dsl-pse8xxgp/release-v1.6.0/hal/include","../../mtb_shared/mtb-dsl-pse8xxgp/release-v1.6.0/hal","../../mtb_shared/mtb-dsl-pse8xxgp/release-v1.6.0/nnkernel/COMPONENT_CM33/include","../../mtb_shared/mtb-dsl-pse8xxgp/release-v1.6.0/nnkernel/COMPONENT_CM33","../../mtb_shared/mtb-dsl-pse8xxgp/release-v1.6.0/nnkernel","../../mtb_shared/mtb-dsl-pse8xxgp/release-v1.6.0/pdl/devices/include","../../mtb_shared/mtb-dsl-pse8xxgp/release-v1.6.0/pdl/devices","../../mtb_shared/mtb-dsl-pse8xxgp/release-v1.6.0/pdl","../../mtb_shared/mtb-dsl-pse8xxgp/release-v1.6.0/pdl/devices/include/ip","../../mtb_shared/mtb-dsl-pse8xxgp/release-v1.6.0/pdl/drivers/include","../../mtb_shared/mtb-dsl-pse8xxgp/release-v1.6.0/pdl/drivers","../../mtb_shared/mtb-dsl-pse8xxgp/release-v1.6.0/pdl/drivers/third_party/ethernet/include","../../mtb_shared/mtb-dsl-pse8xxgp/release-v1.6.0/pdl/drivers/third_party/ethernet","../../mtb_shared/mtb-dsl-pse8xxgp/release-v1.6.0/pdl/drivers/third_party","../../mtb_shared/mtb-ipc/release-v1.2.0/include","../../mtb_shared/mtb-ipc/release-v1.2.0","../../mtb_shared/mtb-srf/release-v1.2.1/include","../../mtb_shared/mtb-srf/release-v1.2.1","../../mtb_shared/se-rt-services-utils/release-v1.4.0"
+        ],
+        "mtbDefaultDefines": [
+            "BLHS_SUPPORT","COMPONENT_55500","COMPONENT_55500A1","COMPONENT_APP_KIT_PSE84_EVAL_EPC2","COMPONENT_CM33","COMPONENT_CM33_0","COMPONENT_CYW55513_MOD_PSE84_SOM","COMPONENT_HCI_UART","COMPONENT_LLVM_ARM","COMPONENT_MTB_DEVICE_SUPPORT","COMPONENT_MTB_HAL","COMPONENT_MW_ASYNC_TRANSFER","COMPONENT_MW_BT_FW_IFX_CYW55500A1","COMPONENT_MW_CMSIS","COMPONENT_MW_CORE_LIB","COMPONENT_MW_CORE_MAKE","COMPONENT_MW_MTB_DSL_PSE8XXGP","COMPONENT_MW_MTB_IPC","COMPONENT_MW_MTB_SRF","COMPONENT_MW_SE_RT_SERVICES_UTILS","COMPONENT_PSE84","COMPONENT_Release","COMPONENT_SECURE_DEVICE","COMPONENT_SECURE_DRIVERS","COMPONENT_SM","COMPONENT_SOFTFP","COMPONENT_WIFI_INTERFACE_SDIO","COMPONENT_wlbga_iPA_sLNA_ANT0_LHL_XTAL_IN","CORE_NAME_CM33_0=1","CYBSP_MCUBOOT_HEADER_SIZE=0x400","CYBSP_WIFI_WL_HOSTWAKE_DRIVE_MODE=MTB_HAL_GPIO_DRIVE_OPENDRAINDRIVESLOW","CYBSP_WIFI_WL_HOSTWAKE_INIT_STATE=WHD_TRUE","CY_APPNAME_proj_cm33_s","CY_SUPPORTS_DEVICE_VALIDATION","CY_TARGET_BOARD=APP_KIT_PSE84_EVAL_EPC2","CY_WIFI_COUNTRY='WHD_COUNTRY_UNITED_STATES'","NDEBUG","PSE846GPS2DBZC4A","TARGET_APP_KIT_PSE84_EVAL_EPC2","TRXV5","FLASH_BOOT","CY_PDL_FLASH_BOOT"
+        ]
+    },
+    "configurations": [
+        {
+            "name": "MTB",
+            "compilerPath": "/bin/clang",
+            "compilerArgs": [
+                "${mtbCompilerArgs}"
+            ],
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json",
+            "intelliSenseMode": "clang-arm",
+            "cStandard": "c99",
+            "cppStandard": "c++11",
+            "includePath": [
+                "${mtbDefaultIncludePath}"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "defines": [
+                "${mtbDefaultDefines}"
+            ]
+        }
+    ]
+}
